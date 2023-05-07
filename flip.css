@@ -1,0 +1,77 @@
+html {
+  font-family: monospace;
+  font-size: max(20pt, 12vmin);
+  line-height: 1.618;
+}
+
+body {
+  margin: auto;
+  overflow-wrap: anywhere;
+}
+
+article {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  max-width: 10em;
+  min-height: 100vh;
+  padding: 2em 0 2em 1em;
+}
+
+b {
+  text-shadow:
+    0 -8vh 1em,
+    0 -5vh 0,
+    0 -3vh 0,
+    0 -2vh 0,
+    0 -1vh 0;
+}
+
+a {
+  text-decoration-style: double;
+}
+
+u {
+  text-decoration: wavy overline;
+}
+
+em {
+  font: bold 2em sans-serif;
+  text-shadow:
+    -1vw -1vh 0,
+    -1vw -1vh 0;
+}
+
+h1 {
+  transform: rotate(3deg);
+}
+
+h2 {
+  transform: rotate(9deg);
+  margin-block: 2em;
+}
+
+code {
+  font-family: sans-serif;
+}
+
+.lip {
+  transform: rotate(-30deg);
+}
+
+.fip {
+  writing-mode: vertical-rl;
+  transform: rotate(60deg);
+}
+
+.codex {
+  margin: auto;
+  padding-inline: 0;
+  list-style: none;
+}
+
+.flick {
+  font-size: .8em;
+  margin-left: 1ch;
+}

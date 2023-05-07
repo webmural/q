@@ -1,0 +1,32 @@
+::selection {
+  text-shadow: 0 -1ex 0 hotpink;
+  background: hotpink;
+  color: black;
+}
+
+:root {
+  color: #33d;
+  background-color: burlywood;
+  background-image: linear-gradient(.2turn, darkviolet 0%, darkviolet 12%, gold 12%);
+}
+
+:any-link {
+  color: darkviolet;
+}
+
+:focus {
+  outline: thick double;
+  text-shadow:
+    0 -1vmax 0,
+    0 -1vmin 0;
+}
+
+u {
+  color: blueviolet;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :any-link {
+    transition: text-shadow 300ms ease-out;
+  }
+}
